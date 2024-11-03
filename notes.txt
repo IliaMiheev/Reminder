@@ -1,2 +1,2 @@
-pyinstaller --noconsole --onefile --icon=./pinguin_ico.ico --add-data "./pinguin_ico-1.png;." notification.py
-pyinstaller --noconsole --onefile --icon=./present_ico.ico --add-data "./present_ico-1.png;." notification.py
+pyinstaller --noconsole --onefile --icon=../icons/present_ico.ico --add-data "../icons/present_ico-1.png;." notification.py
+pyinstaller --noconsole --onefile --icon=../icons/pinguin_ico.ico --add-data "../icons/pinguin_ico-1.png;." notification.py
